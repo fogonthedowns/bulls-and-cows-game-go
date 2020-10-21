@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func getHint(secret string, guess string) string {
 	bull, cow := 0, 0
 	cache := [10]int{0}
